@@ -90,7 +90,7 @@ public class Categorias extends Fragment {
     }
 
     public ArrayList<Producto> inicializar() {
-        Auxiliar aux = new Auxiliar();
+        Auxiliar aux = new Auxiliar(getActivity());
         return aux.inicializarDatos();
     }
 

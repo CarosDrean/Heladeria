@@ -91,7 +91,7 @@ public class Inicio extends Fragment {
     }
 
     public void inicializar(){
-        Auxiliar aux = new Auxiliar();
+        Auxiliar aux = new Auxiliar(getActivity());
         productos = aux.inicializarDatos();
     }
 

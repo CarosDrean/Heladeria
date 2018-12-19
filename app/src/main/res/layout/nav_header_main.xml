@@ -35,7 +35,7 @@
             android:layout_alignLeft="@+id/perfil_cabecera"
             android:paddingTop="@dimen/nav_header_vertical_spacing"
             android:elevation="4dp"
-            android:text="Frutica"
+            android:text="Heladeria Peña"
             android:textSize="25dp"
             android:textColor="@color/blanco"
             android:textStyle="bold"

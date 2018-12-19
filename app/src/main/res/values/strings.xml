@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Heladeria</string>
+    <string name="app_name">Heladeria Peña</string>
     <string name="trancicionFoto">trancicionFoto</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -7,6 +7,18 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <string name="name_uno">1 LT TRISABOR</string>
+    <string name="name_dos">2,5 LT ARROZ CON LECHE</string>
+    <string name="name_tres">1 LT TRISABOR</string>
+    <string name="name_cuatro">2 LT TRISABOR</string>
+    <string name="name_cinco">Relleno</string>
+
+    <string name="descrip_uno">Cremoso postre para compartir en familia, sabor a lúcuma, vainilla y fresa.</string>
+    <string name="descrip_dos">Cremoso postre para compartir en familia, ahora en su versión sabor arroz con leche, suspiro limeño y leche asada.</string>
+    <string name="descrip_tres">Cremoso postre para compartir en familia, sabor a lúcuma, vainilla y fresa.</string>
+    <string name="descrip_cuatro">Cremoso postre para compartir en familia, sabor a lúcuma, vainilla y fresa.</string>
+    <string name="descrip_cinco">Cremoso helado para disfrutar, sabor a lúcuma, vainilla y fresa.</string>
 
     <string name="delete">Eliminar</string>
 

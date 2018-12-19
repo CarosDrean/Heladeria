@@ -101,7 +101,7 @@ public class AdapterPedido extends RecyclerView.Adapter<AdapterPedido.PedidoView
         String nombre = prefs.getString("nombre", "Defecto");
         String celular = prefs.getString("telefono", "955555555");
 
-        Auxiliar aux = new Auxiliar();
+        Auxiliar aux = new Auxiliar(activity);
         return new Pedido(
                 pedido.getId(),
                 pedido.getNombreHelado(),

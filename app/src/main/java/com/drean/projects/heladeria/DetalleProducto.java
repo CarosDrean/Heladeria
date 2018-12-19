@@ -100,7 +100,7 @@ public class DetalleProducto extends AppCompatActivity {
         String nombre = prefs.getString("nombre", "Defecto");
         String celular = prefs.getString("telefono", "955555555");
 
-        Auxiliar aux = new Auxiliar();
+        Auxiliar aux = new Auxiliar(this);
         return new Pedido(
                 (int) System.currentTimeMillis(),
                 getIntent().getStringExtra("helado"),

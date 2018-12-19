@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity
 
     private void alertAcercaDe(){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Acerca de Frutica")
+        builder.setTitle("Acerca de Heladerai Peña")
                 .setMessage("Somos una nueva empresa de la ciudad de Ica, que les ofrece un servicio de calidad unica.");
         builder.setPositiveButton("Listo", new DialogInterface.OnClickListener() {
             @Override
