@@ -37,7 +37,7 @@ public class AdapterCategoria extends RecyclerView.Adapter<AdapterCategoria.Cate
     @Override
     public void onBindViewHolder(@NonNull CategoriaViewHolder holder, int position) {
         final Producto item = productos.get(position);
-        holder.nombre.setText(item.getDescripcion());
+        holder.nombre.setText(item.getNombre());
         holder.precio.setText("" + item.getPrecio());
         Glide.with(activity).load(item.getImagen()).into(holder.imagen);
         holder.imagen.setOnClickListener(new View.OnClickListener() {

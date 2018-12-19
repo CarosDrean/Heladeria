@@ -17,6 +17,7 @@ import android.view.ViewGroup;
 import com.drean.projects.heladeria.R;
 import com.drean.projects.heladeria.adapters.AdapterProducto;
 import com.drean.projects.heladeria.pojo.Producto;
+import com.drean.projects.heladeria.presenter.Auxiliar;
 
 import java.util.ArrayList;
 
@@ -90,10 +91,8 @@ public class Inicio extends Fragment {
     }
 
     public void inicializar(){
-        productos = new ArrayList<>();
-
-        productos.add(new Producto("oscar", R.drawable.defecto, 30.00, "descripcion", "Grande"));
-        productos.add(new Producto("oscar2", R.drawable.defecto, 30.00, "descripcion2", "Grande"));
+        Auxiliar aux = new Auxiliar();
+        productos = aux.inicializarDatos();
     }
 
 }
